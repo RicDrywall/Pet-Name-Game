@@ -6,35 +6,35 @@ const pets = [
     "image": "images/Brooke-Lacey.webp"
   },
   {
-    "owner": "ChristinaI",
+    "owner": "Christina I",
     "image": "images/ChristinaI-1.webp"
   },
   {
-    "owner": "ChristinaR",
+    "owner": "Christina R",
     "image": "images/ChristinaR-1.webp"
   },
   {
-    "owner": "ChristinaR",
+    "owner": "Christina R",
     "image": "images/ChristinaR-2.webp"
   },
   {
-    "owner": "ChristinaR",
+    "owner": "Christina R",
     "image": "images/ChristinaR-3.webp"
   },
   {
-    "owner": "ChristinaR",
+    "owner": "Christina R",
     "image": "images/ChristinaR-4.webp"
   },
   {
-    "owner": "ChristinaR",
+    "owner": "Christina R",
     "image": "images/ChristinaR-5.webp"
   },
   {
-    "owner": "ChristinaR",
+    "owner": "Christina R",
     "image": "images/ChristinaR-6.webp"
   },
   {
-    "owner": "ChristinaR",
+    "owner": "Christina R",
     "image": "images/ChristinaR-7.webp"
   },
   {

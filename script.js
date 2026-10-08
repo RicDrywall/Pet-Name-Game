@@ -3,131 +3,131 @@
 const pets = [
   {
     "owner": "Brooke",
-    "image": "images/Brooke-Lacey.png"
+    "image": "images/Brooke-Lacey.webp"
   },
   {
     "owner": "ChristinaI",
-    "image": "images/ChristinaI-1.png"
+    "image": "images/ChristinaI-1.webp"
   },
   {
     "owner": "ChristinaR",
-    "image": "images/ChristinaR-1.png"
+    "image": "images/ChristinaR-1.webp"
   },
   {
     "owner": "ChristinaR",
-    "image": "images/ChristinaR-2.png"
+    "image": "images/ChristinaR-2.webp"
   },
   {
     "owner": "ChristinaR",
-    "image": "images/ChristinaR-3.png"
+    "image": "images/ChristinaR-3.webp"
   },
   {
     "owner": "ChristinaR",
-    "image": "images/ChristinaR-4.png"
+    "image": "images/ChristinaR-4.webp"
   },
   {
     "owner": "ChristinaR",
-    "image": "images/ChristinaR-5.png"
+    "image": "images/ChristinaR-5.webp"
   },
   {
     "owner": "ChristinaR",
-    "image": "images/ChristinaR-6.png"
+    "image": "images/ChristinaR-6.webp"
   },
   {
     "owner": "ChristinaR",
-    "image": "images/ChristinaR-7.png"
+    "image": "images/ChristinaR-7.webp"
   },
   {
     "owner": "Dustin",
-    "image": "images/Dustin-Biscuit.png"
+    "image": "images/Dustin-Biscuit.webp"
   },
   {
     "owner": "Dustin",
-    "image": "images/Dustin-Gravy.png"
+    "image": "images/Dustin-Gravy.webp"
   },
   {
     "owner": "Eireann",
-    "image": "images/Eireann-1.png"
+    "image": "images/Eireann-1.webp"
   },
   {
     "owner": "Eireann",
-    "image": "images/Eireann-2.png"
+    "image": "images/Eireann-2.webp"
   },
   {
     "owner": "Eireann",
-    "image": "images/Eireann-3.png"
+    "image": "images/Eireann-3.webp"
   },
   {
     "owner": "Eireann",
-    "image": "images/Eireann-4.png"
+    "image": "images/Eireann-4.webp"
   },
   {
     "owner": "Jasmine",
-    "image": "images/Jasmine-Cheeto.png"
+    "image": "images/Jasmine-Cheeto.webp"
   },
   {
     "owner": "Jasmine",
-    "image": "images/Jasmine-Jimmy.png"
+    "image": "images/Jasmine-Jimmy.webp"
   },
   {
     "owner": "Julia",
-    "image": "images/Julia-1.png"
+    "image": "images/Julia-1.webp"
   },
   {
     "owner": "Kristen",
-    "image": "images/Kristen-Kira.png"
+    "image": "images/Kristen-Kira.webp"
   },
   {
     "owner": "Kristen",
-    "image": "images/Kristen-Lucipurr.png"
+    "image": "images/Kristen-Lucipurr.webp"
   },
   {
     "owner": "Morgan",
-    "image": "images/Morgan-1.png"
+    "image": "images/Morgan-1.webp"
   },
   {
     "owner": "Rayna",
-    "image": "images/Rayna-AlexAndSimon.png"
+    "image": "images/Rayna-AlexAndSimon.webp"
   },
   {
     "owner": "Rayna",
-    "image": "images/Rayna-Bob.png"
+    "image": "images/Rayna-Bob.webp"
   },
   {
     "owner": "Rayna",
-    "image": "images/Rayna-Lucy.png"
+    "image": "images/Rayna-Lucy.webp"
   },
   {
     "owner": "Robin",
-    "image": "images/Robin-1.png"
+    "image": "images/Robin-1.webp"
   },
   {
     "owner": "Robin",
-    "image": "images/Robin-2.png"
+    "image": "images/Robin-2.webp"
   },
   {
     "owner": "Sadie",
-    "image": "images/Sadie-Penta.png"
+    "image": "images/Sadie-Penta.webp"
   },
   {
     "owner": "Sarah",
-    "image": "images/Sarah-1.png"
+    "image": "images/Sarah-1.webp"
   },
   {
     "owner": "Sarah",
-    "image": "images/Sarah-2.png"
+    "image": "images/Sarah-2.webp"
   },
   {
     "owner": "Sarah",
-    "image": "images/Sarah-3.png"
+    "image": "images/Sarah-3.webp"
   },
   {
     "owner": "Sarah",
-    "image": "images/Sarah-4.png"
+    "image": "images/Sarah-4.webp"
   },
   {
     "owner": "Stacie",
-    "image": "images/Stacie-Fupa.png"
+    "image": "images/Stacie-Fupa.webp"
   }
 ];
 

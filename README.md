@@ -12,7 +12,7 @@ Owner photo counts: Brooke 1; ChristinaI 1; ChristinaR 7; Dustin 2; Eireann 4; J
 - `styles.css`
 - `script.js`
 - `images/`
-  - The 32 supplied PNG photos.
+  - The 32 supplied photos optimized as WebP images (quality 85, longest edge up to 1600 pixels).
 
 ## GitHub Pages setup
 
@@ -46,3 +46,8 @@ The same owner may appear in multiple entries; use the same spelling each time. 
 Each photo appears once per game in random order. Photo and owner counts, round totals, and final scores update automatically. Score messages use percentages so they work with 32 photos or another total.
 
 To run locally, open `index.html` in a browser, keeping the other files and `images` folder alongside it. No build step is required.
+
+
+## Compressed edition
+
+Use this edition's `script.js` together with its `images` folder because the filenames now end in `.webp`. Extract the ZIP before uploading; upload its contents at the repository root. Original photos remain untouched.

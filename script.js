@@ -42,6 +42,10 @@ const pets = [
     "image": "images/ChristinaR-7.webp"
   },
   {
+    "owner": "Dianne",
+    "image": "images/Dianne-1.webp"
+  },
+  {
     "owner": "Dustin",
     "image": "images/Dustin-Biscuit.webp"
   },
@@ -84,6 +88,10 @@ const pets = [
   {
     "owner": "Kristen",
     "image": "images/Kristen-Lucipurr.webp"
+  },
+  {
+    "owner": "Melissa",
+    "image": "images/Melissa-1.webp"
   },
   {
     "owner": "Morgan",

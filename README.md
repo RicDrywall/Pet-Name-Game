@@ -2,11 +2,11 @@
 
 A responsive browser game for matching pet photos to their owners. Pet names are not required or displayed.
 
-The game contains 40 supplied photos and 16 owners. Each owner is the first word of the filename, before the hyphen. ChristinaI and ChristinaR are separate owners, as supplied. Pet names and filename suffixes are not displayed.
+The game contains 42 supplied photos and 18 owners. Each owner is the first word of the filename, before the hyphen. ChristinaI and ChristinaR are separate owners, as supplied. Pet names and filename suffixes are not displayed.
 
 Each game shows one randomly chosen photo per owner, so a round never repeats an owner. Each round shows the correct owner plus three other owners, for four choices total.
 
-Owner photo counts: Brooke 1; Brittany 1; ChristinaI 1; ChristinaR 7; Dustin 2; Eireann 4; Jasmine 2; Julia 1; Kristen 2; Morgan 1; Rayna 3; Robin 2; Sadie 1; Sarah 4; Stacie 1; Tiffany 7.
+Owner photo counts: Brooke 1; Brittany 1; ChristinaI 1; ChristinaR 7; Dianne 1; Dustin 2; Eireann 4; Jasmine 2; Julia 1; Kristen 2; Melissa 1; Morgan 1; Rayna 3; Robin 2; Sadie 1; Sarah 4; Stacie 1; Tiffany 7.
 
 ## Files
 

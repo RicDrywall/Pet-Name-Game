@@ -1,9 +1,13 @@
-// One round per supplied photo. Owner names come from the filename before the hyphen.
-// Each entry needs only owner and image. The same owner may appear more than once.
+// Owner names come from the filename before the first hyphen.
+// Extra photos for the same owner stay in the list; each game shows one at random.
 const pets = [
   {
     "owner": "Brooke",
     "image": "images/Brooke-Lacey.webp"
+  },
+  {
+    "owner": "Brittany",
+    "image": "images/Brittany-1.webp"
   },
   {
     "owner": "Christina I",
@@ -128,10 +132,39 @@ const pets = [
   {
     "owner": "Stacie",
     "image": "images/Stacie-Fupa.webp"
+  },
+  {
+    "owner": "Tiffany",
+    "image": "images/Tiffany-1.webp"
+  },
+  {
+    "owner": "Tiffany",
+    "image": "images/Tiffany-2.webp"
+  },
+  {
+    "owner": "Tiffany",
+    "image": "images/Tiffany-3.webp"
+  },
+  {
+    "owner": "Tiffany",
+    "image": "images/Tiffany-4.webp"
+  },
+  {
+    "owner": "Tiffany",
+    "image": "images/Tiffany-5.webp"
+  },
+  {
+    "owner": "Tiffany",
+    "image": "images/Tiffany-6.webp"
+  },
+  {
+    "owner": "Tiffany",
+    "image": "images/Tiffany-7.webp"
   }
 ];
 
 const owners = [...new Set(pets.map(pet => pet.owner))];
+const CHOICES_PER_ROUND = 4;
 
 const startScreen = document.getElementById("start-screen");
 const gameScreen = document.getElementById("game-screen");
@@ -149,11 +182,11 @@ const feedback = document.getElementById("feedback");
 const finalScore = document.getElementById("final-score");
 const finalMessage = document.getElementById("final-message");
 
-document.getElementById("pet-count").textContent = pets.length;
+document.getElementById("pet-count").textContent = owners.length;
 document.getElementById("owner-count").textContent = owners.length;
-startButton.disabled = pets.length === 0;
+startButton.disabled = owners.length === 0;
 document.getElementById("setup-message").textContent =
-  pets.length === 0 ? "The new pet photos and owner assignments are coming soon." : "";
+  owners.length === 0 ? "The new pet photos and owner assignments are coming soon." : "";
 
 let gamePets = [];
 let currentRound = 0;
@@ -171,6 +204,24 @@ function shuffle(array) {
   return copy;
 }
 
+function pickOnePetPerOwner() {
+  const byOwner = new Map();
+
+  pets.forEach(pet => {
+    const group = byOwner.get(pet.owner) || [];
+    group.push(pet);
+    byOwner.set(pet.owner, group);
+  });
+
+  return [...byOwner.values()].map(group => group[Math.floor(Math.random() * group.length)]);
+}
+
+function ownerChoices(correctOwner) {
+  const others = owners.filter(owner => owner !== correctOwner);
+  const distractorCount = Math.min(CHOICES_PER_ROUND - 1, others.length);
+  return shuffle([correctOwner, ...shuffle(others).slice(0, distractorCount)]);
+}
+
 function showScreen(screen) {
   [startScreen, gameScreen, endScreen].forEach(section => {
     section.classList.remove("active");
@@ -181,8 +232,8 @@ function showScreen(screen) {
 }
 
 function startGame() {
-  if (pets.length === 0) return;
-  gamePets = shuffle(pets);
+  if (owners.length === 0) return;
+  gamePets = shuffle(pickOnePetPerOwner());
   currentRound = 0;
   score = 0;
   answered = false;
@@ -207,7 +258,7 @@ function renderRound() {
   nextButton.classList.add("hidden");
   answerGrid.innerHTML = "";
 
-  shuffle(owners).forEach(owner => {
+  ownerChoices(currentPet.owner).forEach(owner => {
     const button = document.createElement("button");
     button.className = "answer-button";
     button.type = "button";

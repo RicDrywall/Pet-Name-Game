@@ -332,7 +332,7 @@ function showResults() {
   } else if (score / gamePets.length >= 0.6) {
     finalMessage.textContent = "Pretty good. You know the group well.";
   } else {
-    finalMessage.textContent = "Time to spend a little more time with these pets.";
+    finalMessage.textContent = "Try again.";
   }
 
   showScreen(endScreen);
